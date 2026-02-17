@@ -75,7 +75,7 @@ class MyApp extends StatelessWidget {
       // tema para o modo escuro
       darkTheme: ThemeData.dark().copyWith(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Color.fromARGB(255, 0, 52, 80),
+          seedColor: Color.fromARGB(255, 10, 92, 136),
           brightness: Brightness.dark,
         ),
         useMaterial3: true,
@@ -84,6 +84,7 @@ class MyApp extends StatelessWidget {
       themeMode: themeProvider.themeMode,
       // define a tela inicial que será exibida ao abrir o app
       home: Inicial(),
+      
     );
   }
 }
